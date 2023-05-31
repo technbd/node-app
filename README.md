@@ -8,7 +8,7 @@ This demo purpose for node.js based apps. Uses in Docker to setup a node.js and 
 - Expose the application in 9999 port.
 - env: APPID=your_value
 ```
-# docker build -t nodejs-app .
+# docker build -t nodeapp .
 # docker images
 ```
 # Create Docker Container: </br> 
