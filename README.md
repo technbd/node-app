@@ -37,7 +37,12 @@ curl your_host_ip:2222/admin
 # Configure HAproxy: </br>
 __haproxy.cfg__
 
-# </br>
+- Verify after proxy configure:
+```
+http://your_host_ip/
+http://your_host_ip/app1
+http://your_host_ip/app2
+```
 
 `Links:`
 ---
